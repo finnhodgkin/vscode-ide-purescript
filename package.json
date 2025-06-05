@@ -2,7 +2,7 @@
   "name": "ide-purescript-oa-hybrid",
   "displayName": "PureScript IDE OA Hybrid",
   "description": "PureScript IntelliSense, tooltip, errors, code actions with language-server-purescript/purs IDE server. Partly using rust analyzer",
-  "version": "0.26.9",
+  "version": "0.26.10",
   "publisher": "OxfordAbstracts",
   "author": {
     "name": "Nicholas Wolverson"
