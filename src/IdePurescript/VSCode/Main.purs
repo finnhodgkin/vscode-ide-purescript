@@ -31,7 +31,7 @@ showStatus status = do
 
 main :: EffectFn2 Notifications LanguageClient (Object (EffectFn1 (Array Foreign) Unit))
 main = mkEffectFn2 initialise
-  where 
+  where
     cmdA s f = Tuple ("purescript." <> s) $ mkEffectFn1 f
     cmd s f = cmdA s (\_ -> f)
     initialise notifications client = do
