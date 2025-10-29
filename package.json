@@ -257,13 +257,15 @@
             "none",
             "purty",
             "purs-tidy",
-            "pose"
+            "pose",
+            "pursfmt"
           ],
           "markdownEnumDescriptions": [
             "No formatting provision",
             "Use purty. Must be installed - [instructions](https://gitlab.com/joneshf/purty#npm)",
             "Use purs-tidy. Must be installed - [instructions](https://github.com/natefaubion/purescript-tidy)",
-            "Use pose (prettier plugin). Must be installed - [instructions](https://pose.rowtype.yoga/)"
+            "Use pose (prettier plugin). Must be installed - [instructions](https://pose.rowtype.yoga/)",
+            "Use pursfmt. Must be installed - [instructions](https://github.com/ad-si/pursfmt)"
           ],
           "default": "purs-tidy",
           "description": "Tool to use to for formatting. Must be installed and on PATH (or npm installed with addNpmPath set)"
